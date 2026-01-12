@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rösten Coffee | Simple. Bueno. Café.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+</head>
+<body>
+    <!-- Navegación suave (opcional) -->
+    <nav class="nav-scroll">
+        <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#about">Quiénes somos</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#gallery">Ambiente</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="hero" class="section">
+        <div class="hero-content">
+            <h1 class="hero-title">Rösten Coffee</h1>
+            <p class="hero-tagline">Simple. Bueno. Café.</p>
+            <a href="#menu" class="btn-hero">Descubre una experiencia</a>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- Sección Quiénes somos -->
+    <section id="about" class="section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Quiénes somos</h2>
+                <p>En Rösten Coffee seleccionamos granos de café de origen único, tostados con precisión para resaltar sus notas naturales. Nuestra filosofía es simple: calidad, trazabilidad y respeto por el proceso.</p>
+            </div>
+            <div class="carousel">
+                <div class="carousel-track">
+                    <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Equipo tostando café"></div>
+                    <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Nuestro local"></div>
+                    <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Barista sirviendo"></div>
+                    <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cliente disfrutando"></div>
+                </div>
+                <button class="carousel-btn prev"><i class="fas fa-coffee"></i></button>
+                <button class="carousel-btn next"><i class="fas fa-coffee"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Menú -->
+    <section id="menu" class="section">
+        <div class="menu-container">
+            <h2>Menú destacado</h2>
+            <div class="menu-grid">
+                <div class="menu-category">
+                    <h3>Cafés</h3>
+                    <div class="items-grid">
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Cappuccino">
+                            <h4>Cappuccino</h4>
+                            <p>Espresso balanceado con leche vaporizada y una capa suave de espuma.</p>
+                            <span class="price">$4.20</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Espresso">
+                            <h4>Espresso</h4>
+                            <p>Intenso y aromático, extraído directamente de granos tostado medio.</p>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Café de filtro">
+                            <h4>Café de filtro</h4>
+                            <p>Notas afrutadas y limpia, preparado por goteo con granos de Etiopía.</p>
+                            <span class="price">$5.00</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Latte art">
+                            <h4>Latte art</h4>
+                            <p>Espresso con leche texturizada y un diseño delicado en la superficie.</p>
+                            <span class="price">$4.80</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <h3>Postres multiculturales</h3>
+                    <div class="items-grid">
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1586201375761-83865001e311?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Delicia turca">
+                            <h4>Delicia turca</h4>
+                            <p>Dulce de nueces y miel, textura suave y especias aromáticas.</p>
+                            <span class="price">$6.50</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Tarta de matcha">
+                            <h4>Tarta de matcha</h4>
+                            <p>Crema de té matcha sobre base de bizcocho de almendra, ligero y verde.</p>
+                            <span class="price">$7.20</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Galletas suecas">
+                            <h4>Galletas suecas</h4>
+                            <p>Mantequilla y cardamomo, crujientes por fuera, tiernas por dentro.</p>
+                            <span class="price">$4.00</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1519861531473-920034658307?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Postre de mango">
+                            <h4>Postre de mango</h4>
+                            <p>Cremoso de mango con coco, inspirado en los sabores del sudeste asiático.</p>
+                            <span class="price">$6.80</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Ambiente / Galería interactiva -->
+    <section id="gallery" class="section">
+        <div class="gallery-container">
+            <h2>Ambiente</h2>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Rincón de lectura">
+                    <div class="card-overlay">
+                        <h3>Rincón de lectura</h3>
+                        <p>Un espacio tranquilo con luz natural y sillones cómodos para disfrutar tu café con un buen libro.</p>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Barra de baristas">
+                    <div class="card-overlay">
+                        <h3>Barra de baristas</h3>
+                        <p>Observa cómo nuestros expertos preparan cada bebida con técnicas de extracción precisa.</p>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Terraza exterior">
+                    <div class="card-overlay">
+                        <h3>Terraza exterior</h3>
+                        <p>Disfruta del aire libre en nuestra terraza con mesas de madera y plantas nativas.</p>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Eventos nocturnos">
+                    <div class="card-overlay">
+                        <h3>Eventos nocturnos</h3>
+                        <p>Los viernes transformamos el espacio en un café concierto con música acústica en vivo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact" class="section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Ven a visitarnos</h2>
+                <p><i class="fas fa-map-marker-alt"></i> Calle del Aroma 123, Ciudad Café</p>
+                <p><i class="fas fa-clock"></i> Lunes a Viernes: 7:00 - 22:00<br>Sábados y Domingos: 8:00 - 23:00</p>
+                <p><i class="fas fa-phone"></i> +34 912 345 678</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <h3>¿Tienes algo que contarnos?</h3>
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu email" required>
+                <textarea placeholder="Tu mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="logo-footer">Rösten Coffee</p>
+            <p>Simple. Bueno. Café.</p>
+            <p>&copy; 2023 Rösten Coffee. Todos los derechos reservados. | <a href="#">Política de privacidad</a> | <a href="#">Términos de uso</a></p>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
